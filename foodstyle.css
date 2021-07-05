@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+.nav-bar {
+  display: flex;
+}
+.logo {
+  margin-left: 20px;
+  width: 40%;
+  padding: 10px 20px;
+}
+.logo h1 {
+  font-size: 30px;
+}
+.nav-part {
+  margin-top: 10px;
+  width: 60%;
+}
+.nav-part ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-part li {
+  list-style: none;
+}
+.span-color {
+  color: #ff6348;
+}
+.healthy {
+  margin-top: 20px;
+  display: flex;
+}
+
+.left-part {
+  width: 50%;
+  padding: 30px 80px;
+}
+.left-part h1 {
+  font-size: 40px;
+}
+.left-part p {
+  margin-bottom: 40px;
+}
+.right-path {
+  width: 50%;
+}
+.right-path img {
+  width: 80%;
+}
+
+.button {
+  background-image: linear-gradient(95deg, rgb(243, 115, 115), #c42a0f);
+  text-decoration: none;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 50px;
+
+  font-size: 20px;
+}

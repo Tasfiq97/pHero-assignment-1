@@ -39,6 +39,7 @@ body {
 }
 .left-part h1 {
   font-size: 40px;
+  font-weight: bold;
 }
 .left-part p {
   margin-bottom: 40px;
@@ -47,7 +48,7 @@ body {
   width: 50%;
 }
 .right-path img {
-  width: 80%;
+  width: 70%;
 }
 
 .button {
@@ -58,4 +59,43 @@ body {
   border-radius: 50px;
 
   font-size: 20px;
+}
+
+.about-sec {
+  margin-top: 70px;
+  display: flex;
+  background-image: url(./images/shapes/Frame\ 59.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pad-all {
+  padding: 40px 70px;
+}
+.marg-bottom {
+  margin-bottom: 60px;
+}
+
+.recipe-head h1 {
+  text-align: center;
+}
+.recipe-head p {
+  text-align: center;
+  padding: 10px 220px;
+}
+
+.recipe-div {
+  display: flex;
+  padding: 10px 30px;
+}
+
+.recipe-all {
+  width: 30%;
+  padding: 10px 20px;
+  margin-left: 20px;
+  box-shadow: 10px 10px 8px gray;
+  border-radius: 30px;
+}
+
+.recipe-all img {
+  width: 100%;
 }

@@ -73,6 +73,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.about-sec h1 {
+  font-size: 30px;
+}
 .pad-all {
   padding: 40px 70px;
 }
@@ -81,7 +84,9 @@ body {
 }
 
 .recipe-head h1 {
+  margin-top: 70px;
   text-align: center;
+  font-size: 40px;
 }
 .recipe-head p {
   text-align: center;
@@ -99,6 +104,9 @@ body {
   margin-left: 20px;
   box-shadow: 10px 10px 10px gray;
   border-radius: 30px;
+}
+.recipe-all h1 {
+  font-weight: bolder;
 }
 
 .recipe-all img {
@@ -118,6 +126,10 @@ body {
 .follow-num {
   width: 30%;
   text-align: center;
+}
+.follow-num h1 {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 footer {

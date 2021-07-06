@@ -12,18 +12,23 @@ body {
   padding: 10px 20px;
 }
 .logo h1 {
-  font-size: 30px;
+  font-size: 40px;
 }
 .nav-part {
-  margin-top: 10px;
+  margin-top: 20px;
   width: 60%;
 }
 .nav-part ul {
   display: flex;
   justify-content: space-evenly;
 }
+.nav-part a {
+  text-decoration: none;
+  color: black;
+}
 .nav-part li {
   list-style: none;
+  font-weight: bolder;
 }
 .span-color {
   color: #ff6348;
@@ -90,12 +95,39 @@ body {
 
 .recipe-all {
   width: 30%;
-  padding: 10px 20px;
+  padding: 10px 30px;
   margin-left: 20px;
-  box-shadow: 10px 10px 8px gray;
+  box-shadow: 10px 10px 10px gray;
   border-radius: 30px;
 }
 
 .recipe-all img {
   width: 100%;
+}
+
+.follow-sec {
+  margin-top: 70px;
+}
+.follow-full {
+  width: 90%;
+  display: flex;
+  padding: 20px 60px;
+  box-shadow: 7px 7px 12px 3px gray;
+  border-radius: 20px;
+}
+.follow-num {
+  width: 30%;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: 50px;
+}
+.pad-right {
+  padding-right: 50px;
+  text-align: justify;
 }
